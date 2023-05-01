@@ -38,6 +38,8 @@ $ kubectl apply -f service-todos-backend.yaml
 
 ## Step 5: Frontend Deployment
 
+### Step 5.1
+
 Run
 
 $ minikube service list
@@ -52,11 +54,15 @@ $ docker push [image name]
 
 Specify the frontend image in the file deployment-todos-frontend.yaml
 
+### Step 5.2
+
 Go to directory with deplyment backend files
 
 $ kubectl apply -f deployment-todos-frontend.yaml 
 
 $ kubectl apply -f service-todos-frontend.yaml 
+
+### Step 5.3
 
 Run
 
